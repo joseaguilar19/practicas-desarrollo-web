@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+.contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    background-color: cadetblue;
+    color: white;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    background-color: #7777;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    text-transform: uppercase;
+    width: 300px;
+    height: 25px;
+}

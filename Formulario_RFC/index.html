@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica web</title>
+
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="metodos.js"></script>
+    </head>
+
+    <body>
+
+        <div class="contenedor-principal">
+            <div class="title">
+                <h1>Practica 2 - RFC</h1>
+            </div>
+
+            <div class="formulario">
+                <h3>Nombre:</h3>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre completo">
+                    
+                <h3>Apellido Paterno:</h3>
+                <input type="text" id="ap_pat" placeholder="Ingrese su primer apellido">
+                    
+                <h3>Apellido Materno:</h3>
+                <input type="text" id="ap_mat" placeholder="Ingrese su segundo apellido">
+                    
+                <h3>Fecha de nacimiento:</h3>
+                <input type="date" id="nacimiento">
+                
+                <button id="gen_rfc">Generar RFC</button>
+                    
+                <h3>RFC:</h3>
+                <input type="text" id="rfc" placeholder="Generado automaticamente" readonly>
+            </div>
+
+            <br>
+            
+            <div class="title">
+                <h1>JGAL - API REST</h1>
+            </div>
+
+            <div class="formulario">
+                <button id="api">Consultar API REST</button>
+                <h3>Nombre:</h3>
+                <input type="text" id="api_name" readonly>
+                <h3>Email:</h3>
+                <input type="text" id="api_email" readonly>
+            </div>
+        </div>
+    </body>
+</html>
