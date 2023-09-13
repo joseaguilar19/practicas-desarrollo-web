@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica 3</title>
+
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
+        crossorigin="anonymous">
+
+    </head>
+    
+    <body>
+        <!-- CONTENEDOR PRINCIPAL -->
+        <div class="container">
+            <div class="row">
+                <!-- CONTENEDORES REPARTIDOS -->
+                <!-- col-size-#col -->
+
+                <!-- DASHBOARD -->
+                <div class="dashboard col-md-2">
+                    <ul class="nav nav-underline border border-info">
+                        <li class="nav-item col-md-12">
+                            <a class="nav-link" href="#">Producto</a>
+                        </li>
+                        <li class="nav-item col-md-12">
+                            <a class="nav-link" href="#">Compra</a>
+                        </li>
+                        <li class="nav-item col-md-12">
+                            <a class="nav-link" href="#">Proveedor</a>
+                        </li>
+                        <li class="nav-item col-md-12">
+                            <a class="nav-link" href="#">Venta</a>
+                        </li>
+                        <li class="nav-item col-md-12">
+                            <a class="nav-link" href="#">Cliente</a>
+                        </li>
+                        <li class="nav-item col-md-12">
+                            <a class="nav-link" href="#">Búsqueda</a>
+                        </li>
+                        <li class="nav-item col-md-12">
+                            <a class="nav-link" href="#">Reportes</a>
+                        </li>    
+                    </ul>
+                </div>
+
+                <!-- CONTENIDO -->
+                <div class="col-md-10">
+                    
+                    <!-- ENCABEZADO -->
+                    <h2 class="col-md-12 fondo-gris border border-secondary" style="color: black;">Detalles de Producto</h2>
+                    
+                    <div class="col-md-12 border border-secondary">    
+                        <!-- NAV -->
+                        <ul class="nav nav-tabs col-md-12">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Producto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Subir Imagen</a>
+                            </li>
+                        </ul>
+
+                        <!-- CONTENEDORES -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <span>N Producto<span style="color: red;">*</span></span>
+                                <input type="text" class="col-md-12">
+                            </div>
+                            <div class="col-md-3">
+                                <span>ID Producto</span>
+                                <input type="text" class="col-md-12 fondo-gris">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span>Nombre de Producto<span style="color: red;">*</span></span>
+                                <input type="text" class="col-md-12">
+                            </div>
+                            <div class="col-md-2">
+                                <span>Estado</span>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="1">Activo</option>
+                                    <option value="2">Inactivo</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <textarea class="form-control" placeholder="Descripción" id="floatingTextarea2" style="height: 100px"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <span>Descuento %</span>
+                                <input type="text" class="col-md-12" value="0">
+                            </div>
+                            <div class="col-md-3">
+                                <span>Cantidad<span style="color: red;">*</span></span>
+                                <input type="text" class="col-md-12" value="0">
+                            </div>
+                            <div class="col-md-3">
+                                <span>Precio Unitario</span>
+                                <input type="text" class="col-md-12" value="0">
+                            </div>
+                            <div class="col-md-3">
+                                <span>Stock Total</span>
+                                <input type="text" class="col-md-12 fondo-gris">
+                            </div>
+                        </div>
+
+                        <br>
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-success">Agregar Producto</button>
+                            <button type="button" class="btn btn-primary">Actualizar</button>
+                            <button type="button" class="btn btn-danger">Borrar</button>
+                            <button type="button" class="btn btn-secondary">Limpiar</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
+        crossorigin="anonymous"></script>
+    </body>
+</html>
